@@ -6,3 +6,5 @@ lazy val root = (project in file("."))
   .settings(
     name := "ulid-sample"
   )
+
+libraryDependencies += "net.petitviolet" %% "ulid4s" % "0.5.0"
